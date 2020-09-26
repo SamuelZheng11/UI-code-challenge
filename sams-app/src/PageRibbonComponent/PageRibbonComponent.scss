@@ -1,0 +1,11 @@
+@import '../../common/variables';
+
+.page-ribbon-container {
+    background: $grey;
+    padding: 10px 20% 15px 20%;
+
+    .title-container {
+        font-size: $heading-1-font-size;
+        font-weight: $heading-font-weight;
+    }
+}
