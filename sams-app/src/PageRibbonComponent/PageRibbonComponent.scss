@@ -6,6 +6,21 @@
 
     .title-container {
         font-size: $heading-1-font-size;
-        font-weight: $heading-font-weight;
+        font-weight: $bold-font-weight;
+        text-align: initial;
+    }
+}
+
+// numbers obtained from in -> px conversion from ux-design document
+@media only screen and (max-width: 1024px) {
+    .page-ribbon-container {
+        padding: 10px 5% 15px 5%;
+    }
+}
+
+// numbers obtained from in -> px conversion from ux-design document
+@media only screen and (max-width: 646px) {
+    .page-ribbon-container {
+        padding: 10px 5% 15px 5%;
     }
 }

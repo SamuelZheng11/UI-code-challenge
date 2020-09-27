@@ -1,0 +1,52 @@
+@import '../../common/variables.scss';
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid $grey;
+    transition: transform .3s;
+
+    .card-top {
+        display: flex;
+        background: url('../assets/image-placement.svg');
+        background-size: 40% 40%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $grey;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        height: 60%;
+    }
+
+    .badge-container {
+        padding: 10px
+    }
+
+    .title-container {
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: $heading-2-font-size;
+        font-weight: $bold-font-weight;
+    }
+
+    .user-container {
+        margin-left: 10px;
+    }
+
+    .ratings-container {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .focused-card {
+        box-shadow: 0 4px 8px 0 $black;
+    }
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px 0 $grey;
+    transform: scale(1.05);
+}

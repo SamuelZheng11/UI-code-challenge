@@ -1,6 +1,6 @@
 @import '../../common/variables';
 
-.header-container {
+.header {
     padding: 10px 20px 10px 20px;
     display: flex;
     flex-direction: row;
@@ -8,6 +8,7 @@
     justify-content: space-between;
     background: $gradient-turquoise;
     background: linear-gradient(90deg, $gradient-turquoise 0%, $gradient-olive-green 100%);
+    flex-grow: 0;
 
     .logo-icon {
         width: 40px;

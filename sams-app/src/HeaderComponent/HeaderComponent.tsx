@@ -7,7 +7,7 @@ import './HeaderComponent.scss';
 // Stateless, Therefore using a functional component for simplicity
 function HeaderComponent() {
   return (
-    <div className="header-container">
+    <div className="header">
         <img className="logo-icon" src={LogoSvg}/>
         <div className="profile-menu-container">
           <img className="menu-icon" src={ToTopSvg}/>

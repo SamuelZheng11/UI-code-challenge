@@ -32,11 +32,9 @@ function FooterComponent(props: IFooterProps) {
 
 
   return (
-    <div className="footer-container">
-      <div className="footer-content-container">
-        <div className="footer-copyright-container">{props.CopyRightText}</div>
-        <div className="footer-details-container">{generateFooterRightDetails()}</div>
-      </div>
+    <div className="footer">
+      <div className="footer-copyright-container">{props.CopyRightText}</div>
+      <div className="footer-details-container">{generateFooterRightDetails()}</div>
     </div>
   );
 }
