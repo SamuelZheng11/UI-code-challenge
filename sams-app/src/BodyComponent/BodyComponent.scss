@@ -1,23 +1,28 @@
 .body{
     flex-grow: 2;
+
     .body-content {
         margin: 0 20% 0 20%;
         padding: 50px 0 50px 0;
     }
 
     // numbers obtained from in -> px conversion from ux-design document
-@media only screen and (max-width: 1024px) {
-    .body-content {
-        margin: 0 5% 0 5%;
-        padding: 30px 0 30px 0;
-    }
-}
+    @media only screen and (max-width: 1024px) {
+        flex-grow: 2;
 
-// numbers obtained from in -> px conversion from ux-design document
-@media only screen and (max-width: 646px) {
-    .body-content {
-        margin: 0 5% 0 5%;
-        padding: 30px 0 30px 0;
+        .body-content {
+            margin: 0 5% 0 5%;
+            padding: 30px 0 30px 0;
+        }
     }
-}
+
+    // numbers obtained from in -> px conversion from ux-design document
+    @media only screen and (max-width: 646px) {
+        flex-grow: 2;
+
+        .body-content {
+            margin: 0 5% 0 5%;
+            padding: 30px 0 10px 0;
+        }
+    }
 }

@@ -4,6 +4,7 @@ import HeaderComponent from './HeaderComponent/HeaderComponent'
 import BodyComponent from './BodyComponent/BodyComponent';
 import FooterComponent from './FooterComponent/FooterComponent';
 import IBreadcrumb from './BreadcrumbComponent/IBreadcrumb';
+import ToTopSvg from './assets/to-top.svg';
 
 interface ILocalizedText {
   CopyRightText: string;
@@ -37,6 +38,7 @@ function App() {
         pageRibbonBreadcrumbs={englishLocalizedTexts.breadcrumbs} 
         noRatingsText={englishLocalizedTexts.noRatingsText}
       />
+      <div className="to-top-button-container" ><img className="to-top-button" src={ToTopSvg}></img></div>
       <FooterComponent 
         CopyRightText={englishLocalizedTexts.CopyRightText} 
         PrivacyText= {englishLocalizedTexts.PrivacyText} 

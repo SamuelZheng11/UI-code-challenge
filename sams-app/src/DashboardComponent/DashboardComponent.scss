@@ -4,6 +4,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    left: 0;
+    right: 0;
 
     .dashboard-card-container {
         width: 18%;
