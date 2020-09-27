@@ -1,0 +1,17 @@
+@import '../../common/variables.scss';
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+
+    .ratings-star {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+    
+    .ratings-value {
+        margin-left: 2px;
+        font-weight: $bold-font-weight;
+    }
+}

@@ -1,0 +1,42 @@
+@import '../../common/variables.scss';
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left: 0;
+    right: 0;
+
+    .dashboard-card-container {
+        width: 18%;
+        height: 250px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+
+    .focused-card {
+        box-shadow: 5px 10px rgba(0,0,0,0.2);
+        border-radius: 25px;
+    }
+
+    // numbers obtained from in -> px conversion from ux-design document
+    @media only screen and (max-width: 1024px) {
+        .dashboard-card-container {
+            width: 27vw;
+        }
+    }
+
+    // numbers obtained from in -> px conversion from ux-design document
+    @media only screen and (max-width: 646px) {
+        .dashboard-card-container {
+            min-width: 40vw;
+        }
+    }
+
+    .loader-container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

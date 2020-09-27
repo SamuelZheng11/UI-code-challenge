@@ -1,0 +1,41 @@
+@import '../../common/variables';
+
+.footer {
+    background: $dark-grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: $white;
+    font-size: $body-font-size;
+    padding: 10px 30px 10px 30px;
+    flex-grow: 0;
+    min-height: 40px;
+
+    .footer-spacer {
+        margin: 0 8px 0 8px;
+    }
+
+    .footer-details-container {
+        display: flex;
+        flex-direction: row;
+    } 
+}
+
+// numbers obtained from in -> px conversion from ux-design document
+@media only screen and (max-width: 1024px) {
+    .footer {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer-copyright-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-details-container {
+        justify-content: center;
+    }
+}
