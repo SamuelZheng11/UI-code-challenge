@@ -24,11 +24,12 @@ You will also see any lint errors in the console.
  - Badges for `published` & `unpublished`
  - to-top button
  - configurable breadcrumbs
+ - setup the testing framework (Jest)
  - header
  - footer
 
- ### What I did not have time to implement
+ ### What I did not have done (due to time constraints)
 
  - scroll-to-top functionality when to-top button is clicked
- - Tests
+ - Unit or Integration tests
  - Follow accessibility standards
