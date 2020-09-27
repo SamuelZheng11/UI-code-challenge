@@ -4,7 +4,7 @@ Hey! this is my implementation for the coding project at NetFront
 
 ### Running the project
 
-To run the project make sure you are in the `UI-code-challenge/sams-app` and run `npm start`
+To run the project make sure you are in the `UI-code-challenge/sams-app` then run `npm install` and then run `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
