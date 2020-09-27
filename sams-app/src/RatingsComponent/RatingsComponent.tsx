@@ -13,7 +13,7 @@ function RatingsComponent(props: IRatingsProps) {
   const generateGreyStar = () => {
     return(
       <React.Fragment>
-          <img className="ratings-star" src={greyStar}></img>
+          <img className="ratings-star" src={greyStar} alt={''}></img>
       </React.Fragment>
     );
   }
@@ -21,7 +21,7 @@ function RatingsComponent(props: IRatingsProps) {
   const generateGoldStar = () => {
     return(
       <React.Fragment>
-          <img className="ratings-star" src={goldStar}></img>
+          <img className="ratings-star" src={goldStar} alt={''}></img>
       </React.Fragment>
     );
   }

@@ -1,9 +1,11 @@
 .App {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 
   .to-top-button-container {
     display: none;
+    flex-grow: 0;
   }
 
   .to-top-button {

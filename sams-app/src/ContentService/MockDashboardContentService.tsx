@@ -1,6 +1,4 @@
-import React from 'react';
 import dashboardData from './data.json';
-import IDashboardDetail from '../DashboardComponent/IDashboardDetail';
 
 // Proxy pattern, act like we are receving real data a backend service (API)
 export default function GetDashboardConent() {

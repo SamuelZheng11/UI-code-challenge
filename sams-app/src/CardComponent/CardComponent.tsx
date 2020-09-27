@@ -1,6 +1,5 @@
 import React from 'react';
 import './CardComponent.scss';
-import placementImage from '../assets/image-placement.svg'
 import BadgeComponent from '../BadgeComponent/BadgeComponent';
 import RatingsComponent from '../RatingsComponent/RatingsComponent';
 

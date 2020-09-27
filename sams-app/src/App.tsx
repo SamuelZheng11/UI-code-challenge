@@ -38,7 +38,7 @@ function App() {
         pageRibbonBreadcrumbs={englishLocalizedTexts.breadcrumbs} 
         noRatingsText={englishLocalizedTexts.noRatingsText}
       />
-      <div className="to-top-button-container" ><img className="to-top-button" src={ToTopSvg}></img></div>
+      <div className="to-top-button-container" ><img className="to-top-button" src={ToTopSvg} alt={''}></img></div>
       <FooterComponent 
         CopyRightText={englishLocalizedTexts.CopyRightText} 
         PrivacyText= {englishLocalizedTexts.PrivacyText} 

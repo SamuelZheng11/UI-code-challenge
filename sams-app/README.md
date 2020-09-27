@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
  - Quick design documents for what I have built
  - Hover/Click functionality for the cards on the dashboard (to see hover function)
- - @Media tags to change styles based on viewport size (responsiveness, please use the chrome debugger and view in responsive mode or the screen sizes of different devices)
+ - Responsiveness (, please use the chrome debugger. I tested it on my browser (chrome),  iphone 6/7/8, Galaxy 5, IPad)
  - text for different languages can be passed in (globalizable)
  - _variable.scss for branding guidelines
  - Dashboard data.json read-in (to test changes, edit the data.json and save, the changes should be reflected in the web-app if/when it runs)

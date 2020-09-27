@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './DashboardComponent.scss';
 import LoaderComponent from '../LoaderComponent/LoaderComponent';
 import CardComponent from '../CardComponent/CardComponent';
-import GetDashboardConent from '../ContentService/MockDashboardContentService';
 import IDashboardDetail from './IDashboardDetail';
 
 interface IDashboardComponentProps {
@@ -14,8 +13,6 @@ interface IDashboardComponentProps {
 }
 
 function DashboardComponent(props: IDashboardComponentProps) {
-  const onCardClicked = () => {};
-
   // I believe that with GraphQL there is a intermediary step before requests are sent out. So I have moved the fetch request out of this class
   const generateDashboardCards = () => {
     return props.dashboardCardConent.map((cardDetail: IDashboardDetail) => {
